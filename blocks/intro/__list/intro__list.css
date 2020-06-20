@@ -1,0 +1,20 @@
+@import url(./__list-item/intro__list-item.css);
+.intro__list {
+list-style-type: none;
+margin-bottom: 0;
+margin-top: 32px;
+padding: 0;
+max-width: 690px;
+}
+
+@media screen and (max-width: 800px) {
+.intro__list {
+max-width: 720px;
+}
+}
+@media screen and (max-width: 375px) {
+.intro__list {
+max-width: 288px;
+padding-right: 16px;
+}
+}
