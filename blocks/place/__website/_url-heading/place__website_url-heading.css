@@ -1,14 +1,14 @@
 .place__website_url-heading {
-font-weight: 400;
-font-size: 12px;
-line-height: 12px;
-color: #aaaaaa;
-margin: 0;
-grid-area: url;
-letter-spacing: 0.15em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #aaaaaa;
+    margin: 0;
+    grid-area: url;
+    letter-spacing: 0.15em;
 }
 @media screen and (max-width: 375px) {
-.place__website_url-heading {
-display: none;
-}
+    .place__website_url-heading {
+        display: none;
+    }
 }

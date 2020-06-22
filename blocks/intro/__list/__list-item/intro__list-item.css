@@ -1,7 +1,7 @@
 @import url(./_weight_regular/intro__list-item_weight_regular.css);
 .intro__list-item {
-font-weight: 700;
-font-size: 12px;
-line-height: 18px;
-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
 }

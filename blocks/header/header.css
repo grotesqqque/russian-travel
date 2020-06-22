@@ -3,22 +3,22 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 @import url(./__lang-list/header__lang-list.css);
 .header {
-font-family: 'Inter', Arial, sans-serif;
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-padding: 28px 48px 0px;
-margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 28px 48px 0px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 800px) {
-.header {
-padding:  28px 24px 0px;
-}
+    .header {
+        padding: 28px 24px 0px;
+    }
 }
 
-@media screen and (max-width: 375px){
-.header {
-padding: 16px 16px 0px;
-}
+@media screen and (max-width: 375px) {
+    .header {
+        padding: 16px 16px 0px;
+    }
 }
