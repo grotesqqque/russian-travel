@@ -1,4 +1,4 @@
-.place__website_url-heading {
+.place__url {
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
@@ -6,9 +6,10 @@
     margin: 0;
     grid-area: url;
     letter-spacing: 0.15em;
+    margin-bottom: 12px;
 }
-@media screen and (max-width: 375px) {
-    .place__website_url-heading {
+@media screen and (max-width: 600px) {
+    .place__url {
         display: none;
     }
 }

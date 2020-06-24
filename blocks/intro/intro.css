@@ -1,6 +1,7 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
+@import url(./__digits/intro__digits.css);
 .intro {
     font-family: "Inter", Helvetica, sans-serif;
     max-width: 690px;
@@ -15,12 +16,14 @@
 @media screen and (max-width: 800px) {
     .intro {
         max-width: 720px;
-        margin: 88px 24px 0;
+        margin: 88px 0 0;
+        padding-left: 24px;
     }
 }
 @media screen and (max-width: 375px) {
     .intro {
         max-width: 288px;
         margin: 64px 16px 0;
+        padding-left: 0;
     }
 }
