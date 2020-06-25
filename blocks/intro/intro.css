@@ -2,6 +2,7 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 @import url(./__digits/intro__digits.css);
+@import url(./__list-item/intro__list-item.css);
 .intro {
     font-family: "Inter", Helvetica, sans-serif;
     max-width: 690px;
